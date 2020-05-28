@@ -1,0 +1,57 @@
+body {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(250, 244, 237);    
+}
+.text-area {    
+   min-height: 100px;
+   min-width: 800px;
+   margin: 20px auto;   
+   display: block;      
+}
+.row-container {
+    display: flex;    
+    min-width: 1000px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;    
+    justify-content: center;
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(77, 130, 155);
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    min-width: 50px;
+    margin: 5px;
+    font: 20px "Fira Sans", sans-serif;
+    color: #fff;
+}
+.button:hover {
+    background-color: rgb(187, 161, 235);
+}
+.special {
+    background-color: rgb(34, 55, 85);
+    padding: 0 5px;
+}
+.space {
+    width: 310px;
+}
+.key-style {
+    padding: 0 15px;
+}
+.enter {
+    width: 100px;
+}
+.shift {
+    width: 88px;
+}
+.active {
+    background-color: rgb(187, 161, 235);
+    border-radius: 15px;
+    color: #000;    
+}
